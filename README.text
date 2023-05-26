@@ -1,0 +1,23 @@
+PROGRAMI DOĞRUDAN KULLANMAK İSTEYENLER "GPA Calculator.exe" DOSYASINI ÇALIŞTIRABİLİR.
+
+
+
+Karşınızda, Anıl Ergan tarafından Türkçe dilinde hazırlanmış bir program. Bu benim için bir ilk (Türkçe oluşu)!. Zira bu terimleri ingilizceye çevirmem farklı bir eğitim kültüründe farklı anlamlar taşıyacak kelimeler kullanmama sebep olacaktı. Dolaylı olarak, değişken isimlerinin bir kısmı Türkçe bir Kısmın ise İngilizce oldu. Bu sebeple koda ilk bakan birisi bu açıdan bir eleştiri getirebilir, amatör olarak değerlendirebilir. Fakat açıkladığım üzere durum aslında böyle değil.
+
+
+gpa_main.py ana kodun yazılı olduğu dosyadır
+
+Veri tabanı db1.csv ve db2.csv isimli iki kısımdan oluşmaktadır. İlişkisel bir veri tabanı teknolojisi kullanmadığım için bu şekilde iki ayrı csv dosyasında iki farklı veri tutmam daha sağlıklı olacaktı.
+
+gpa_qt.py / gpa_qt.ui pyqt5 (arayüz) kodudur.
+
+
+******************** PROGRAMIN AMACI **********************
+Program'ın amacı, (üniversite dersleri için) halihazırda vermiş olduğunuz derslerin ve buna istinaden sahip olduğunuz mevcut agno(yıl sonu) skorunuzun, vermemiş olduğunuz diğer derslerinizin nihayetlenmesi ile nasıl değişeceğini gözlemlemektir.
+
+Öncelikle kaç kredi ders verdiğinizi ve bunun nihayetinde edindiğiniz AGNO (yıl sonu) puanınızı giriniz.
+
+Sonrasında, henüz sonuçlandırmadığınız farklı dersleri (aynı zamanda kredilerini ve sonuçlandırmayı öngördüğünüz harf notunu) eklemeniz gerekmektedir.
+
+Hesapla butonuna tıkladığınızda bu derslerin ön gördüğünüz harf notları ile mevcut AGNO'nuzu nasıl etkileyeceğini göreceksiniz.
+************************************************************
